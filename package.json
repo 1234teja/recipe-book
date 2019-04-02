@@ -1,0 +1,23 @@
+{
+  "name": "recipebook",
+  "version": "1.0.0",
+  "description": "Recipe Manager",
+  "main": "app.js",
+  "engines": {
+    "node": "8.9.3"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "rex",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "consolidate": "*",
+    "dust": "*",
+    "dustjs-helpers": "*",
+    "dustjs-linkedin": "*",
+    "express": "*",
+    "pg": "*"
+  }
+}
